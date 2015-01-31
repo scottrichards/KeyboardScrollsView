@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KBMViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : KBMViewController
 
 
 @end

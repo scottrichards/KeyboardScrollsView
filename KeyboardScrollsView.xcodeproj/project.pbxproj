@@ -14,6 +14,9 @@
 		014B76FC1A7D3E980002E515 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014B76FB1A7D3E980002E515 /* Images.xcassets */; };
 		014B76FF1A7D3E980002E515 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014B76FD1A7D3E980002E515 /* LaunchScreen.xib */; };
 		014B770B1A7D3E980002E515 /* KeyboardScrollsViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 014B770A1A7D3E980002E515 /* KeyboardScrollsViewTests.m */; };
+		014B77241A7D3F950002E515 /* CEContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 014B771F1A7D3F950002E515 /* CEContentView.m */; };
+		014B77251A7D3F950002E515 /* KBMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014B77211A7D3F950002E515 /* KBMViewController.m */; };
+		014B77261A7D3F950002E515 /* ScrollView+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 014B77231A7D3F950002E515 /* ScrollView+Utilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		014B77041A7D3E980002E515 /* KeyboardScrollsViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardScrollsViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		014B77091A7D3E980002E515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		014B770A1A7D3E980002E515 /* KeyboardScrollsViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardScrollsViewTests.m; sourceTree = "<group>"; };
+		014B771E1A7D3F950002E515 /* CEContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEContentView.h; sourceTree = "<group>"; };
+		014B771F1A7D3F950002E515 /* CEContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEContentView.m; sourceTree = "<group>"; };
+		014B77201A7D3F950002E515 /* KBMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMViewController.h; sourceTree = "<group>"; };
+		014B77211A7D3F950002E515 /* KBMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMViewController.m; sourceTree = "<group>"; };
+		014B77221A7D3F950002E515 /* ScrollView+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ScrollView+Utilities.h"; sourceTree = "<group>"; };
+		014B77231A7D3F950002E515 /* ScrollView+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ScrollView+Utilities.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		014B76ED1A7D3E980002E515 /* KeyboardScrollsView */ = {
 			isa = PBXGroup;
 			children = (
+				014B77141A7D3EC90002E515 /* KBMViewController */,
 				014B76F21A7D3E980002E515 /* AppDelegate.h */,
 				014B76F31A7D3E980002E515 /* AppDelegate.m */,
 				014B76F51A7D3E980002E515 /* ViewController.h */,
@@ -117,6 +127,19 @@
 				014B77091A7D3E980002E515 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		014B77141A7D3EC90002E515 /* KBMViewController */ = {
+			isa = PBXGroup;
+			children = (
+				014B771E1A7D3F950002E515 /* CEContentView.h */,
+				014B771F1A7D3F950002E515 /* CEContentView.m */,
+				014B77201A7D3F950002E515 /* KBMViewController.h */,
+				014B77211A7D3F950002E515 /* KBMViewController.m */,
+				014B77221A7D3F950002E515 /* ScrollView+Utilities.h */,
+				014B77231A7D3F950002E515 /* ScrollView+Utilities.m */,
+			);
+			path = KBMViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +242,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014B77261A7D3F950002E515 /* ScrollView+Utilities.m in Sources */,
+				014B77241A7D3F950002E515 /* CEContentView.m in Sources */,
 				014B76F71A7D3E980002E515 /* ViewController.m in Sources */,
+				014B77251A7D3F950002E515 /* KBMViewController.m in Sources */,
 				014B76F41A7D3E980002E515 /* AppDelegate.m in Sources */,
 				014B76F11A7D3E980002E515 /* main.m in Sources */,
 			);
