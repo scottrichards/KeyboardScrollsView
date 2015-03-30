@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "KBMViewController.h"
 
-@interface ViewController : KBMViewController
+@interface ViewController : KBMViewController <UITextFieldDelegate>
 
 
 @end
